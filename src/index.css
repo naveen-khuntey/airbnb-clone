@@ -13,15 +13,42 @@ body {
 	justify-content: center;
 }
 
-.img-photo-1 {
+.img-photo-1{
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+ 	top: 0;
+	background-color: white;
 	height: 50px;
     display: flex;
     padding: 20px 36px;
     box-shadow: 0px 0px 7.4564px rgba(0, 0, 0, 0.5);
 }
 .img-photo-1 > img {
-	width: 150px;
+	max-width: 155px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.img-photo-2{
+    display: flex;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	justify-content: center;
+	align-items: center;
+}
+.img-photo-2 > img {
+	max-width: 70vw;
+	max-height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-content{
+	background-color: rgb(43, 51, 53);
+	color: white;
+	font-family: Poppins;
+	padding: 20px 0px 20px 50px;
+
 }
