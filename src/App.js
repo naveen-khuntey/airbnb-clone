@@ -6,7 +6,7 @@ export default function App() {
 		<div className="App">
 			<div className="card-container">
 				<Card 
-					img = ""
+					img = "card-1.jpg"
 					rating = "5.0"
 					review = {6}
 					country = "USA"
@@ -14,7 +14,7 @@ export default function App() {
 					price = {138}
 				/>
 				<Card 
-					img = ""
+					img = "card-2.jpg"
 					rating = "4.8"
 					review = {10}
 					country = "Mexico"
@@ -22,7 +22,7 @@ export default function App() {
 					price = {50}
 				/>
 				<Card 
-					img = ""
+					img = "card-3.jpg"
 					rating = "4.72"
 					review = {2}
 					country = "Japan"
@@ -30,7 +30,7 @@ export default function App() {
 					price = {98}	
 				/>
 				<Card 
-					img = ""
+					img = "card-4.jpg"
 					rating = "4.58"
 					review = {14}
 					country = "South-Korea"
@@ -38,19 +38,19 @@ export default function App() {
 					price = {150}
 				/>
 				<Card 
-					img = ""
+					img = "card-5.jpg"
 					rating = "4.91"
 					review = {45}
 					country = "India"
-					title = "Software Industry reality of getting Jobs by Pavitra Pandey"
+					title = "Getting Jobs in software industry with Pavitra Pandey"
 					price = {168}
 				/>
 				<Card 
-					img = ""
+					img = "card-6.jpg"
 					rating = "4.95"
 					review = {4}
 					country = "Nepal"
-					title = "Economy to it's best by Yash Atal"
+					title = "Economy at a glance by Yash Atal"
 					price = {48}
 				/>
 			</div>

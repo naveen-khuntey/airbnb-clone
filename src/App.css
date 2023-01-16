@@ -28,7 +28,10 @@ body {
 	height: 360px;
 }
 .card-img{
+	border-radius: 7.5px;
+	overflow: hidden;
 	max-width: 200px;
+	max-height: 200px;
 }
 .card-stats{
 	display: flex;
@@ -43,6 +46,7 @@ body {
 	justify-self: center;
 }
 .card-title{
+	font-family: Poppins;
 	max-width: 200px;
 	margin-top: -20px;
 }
