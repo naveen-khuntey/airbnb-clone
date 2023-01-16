@@ -52,3 +52,32 @@ body {
 	padding: 20px 0px 20px 50px;
 
 }
+.card{
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-bottom: 70px;
+	/* border: 2px solid red; */
+	border-radius: 5px;
+	overflow: hidden;
+	max-width: 200px;
+	font-size: 15px;
+	align-items: center;
+}
+.card-img{
+	max-width: 200px;
+}
+.card-stats{
+	display: flex;
+	justify-content:center;
+}
+.card-stats > img{
+	max-width: 20px;
+	/* max-height: 20px; */
+}
+.card p{
+	margin-top: 0px;
+	justify-self: center;
+}
