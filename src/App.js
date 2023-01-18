@@ -8,15 +8,8 @@ export default function App() {
 		return (
 			<Card 
 				key = {item.id}
-				img = {item.coverImg}
-				rating = {item.stats.rating}
-				review = {item.stats.reviewCount}
-				country = {item.location}
-				title = {item.title}
-				price = {item.price}
-				batchcount = {item.batchcount}
+				item = {item}//passing whole data array as object
 			/>
-
 		)
 	})
 	return (
