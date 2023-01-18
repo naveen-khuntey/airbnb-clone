@@ -1,5 +1,5 @@
 # Airbnb Clone
-
+### deployed in [link](https://clone-air.netlify.app/)
 ## Available Scripts
 
 In the project directory, you can run:
